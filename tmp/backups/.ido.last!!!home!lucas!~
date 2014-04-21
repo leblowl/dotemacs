@@ -1,0 +1,92 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/lucas/.emacs.d/packs/" . "piggieback/")
+ ("/home/lucas/.emacs.d/" . "packs/")
+ ("/home/lucas/Documents/Clojure/piggieback-demo/src/" . "piggieback_demo/")
+ ("/home/lucas/Documents/Clojure/piggieback-demo/" . "target/")
+ ("/home/lucas/Documents/Clojure/cljs-spiral/src/" . "cljsspiral/")
+ ("/home/lucas/Documents/Clojure/cljs-spiral/" . "src/")
+ ("/home/lucas/Documents/Clojure/cljsspiral/" . "reagent-template/")
+ ("/home/lucas/Documents/Clojure/cljsspiral/reagent-template/src/" . "cljsspiral/")
+ ("/home/lucas/Documents/Clojure/cljsspiral/reagent-template/" . "src/")
+ ("/home/lucas/Documents/" . "Clojure/")
+ ("/home/lucas/" . ".emacs.d/")
+ ("/home/lucas/Documents/Clojure/" . "cljs-spiral/")
+ ("/home/lucas/Documents/Clojure/reactdemo/src/" . "reactdemo/")
+ ("/home/lucas/Documents/Clojure/reactdemo/" . "src/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/lucas/.emacs.d/packs/piggieback/"
+ "/home/lucas/Documents/Clojure/cljs-spiral/"
+ "/home/lucas/Documents/Clojure/piggieback-demo/target/"
+ "/home/lucas/Documents/Clojure/piggieback-demo/src/piggieback_demo/"
+ "/home/lucas/Documents/Clojure/piggieback-demo/"
+ "/home/lucas/Documents/Clojure/cljs-spiral/src/cljsspiral/"
+ "/home/lucas/Documents/Clojure/cljsspiral/reagent-template/"
+ "/home/lucas/Documents/Clojure/cljsspiral/reagent-template/src/cljsspiral/"
+ "/home/lucas/Documents/Clojure/reactdemo/"
+ "/home/lucas/Documents/Clojure/reactdemo/src/reactdemo/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ "cljsspiral.html"
+ "client.js"
+ "core.cljs"
+ "project.clj"
+ "cljsspiral.css"
+ "README.md"
+ "reactdemo.html"
+ "core.clj"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/lucas/.emacs.d/packs/piggieback/" (21230 62596 528000 0) "./" "README.md" "info.el" "../" "lib/" "init.el" "config/")
+
+ ("/home/lucas/.emacs.d/packs/" (21230 62636 256000 0) "template/" "update-live-packs" "./" "piggieback/" "dev/" "live/" "../")
+
+ ("/home/lucas/.emacs.d/" (21196 47680 22277 711000) "./" "manifest.el" "README.md" "LICENSE.txt" ".gitmodules" "tmp/" "installer/" "etc/" "../" "lib/" "packs/" "init.el" ".gitignore" "CHANGELOG.md")
+
+ ("/home/lucas/" (21230 57095 124000 0) "./" "Downloads/" ".nv/" ".adobe/" ".cache/" ".ido.last" ".lein/" ".cinnamon/" "Public/" ".wine-browser/" "Music/" ".bash_logout" "Videos/" ".pki/" ".xsession-errors" "Templates/" "Documents/" ".config/" ".bash_history" ".m2/" ".macromedia/" ".Xauthority" ".gksu.lock" "Pictures/" ".gitconfig" ".dmrc" ".gnome2/" "../" ".mozilla/" ".emacs.d/" ".ICEauthority" ".gnome2_private/" ".dbus/" ".local/" ".linuxmint/" ".smex-items" ".profile" ".gconf/" "Desktop/")
+
+ ("/home/lucas/Documents/" (21229 39006 56000 0) "./" "socalgas_end.pdf" "socalgas_end_closing.pdf" "../" "parkingticketvalencia.pdf" "Clojure/")
+
+ ("/home/lucas/Documents/Clojure/piggieback-demo/" (21230 62191 796000 0) "./" "test/" "README.md" "piggieback-demo.html" ".lein-cljsbuild-compiler-0/" "resources/" "target/" "project.clj" "../" "LICENSE" "src/" ".gitignore" "doc/")
+
+ ("/home/lucas/Documents/Clojure/piggieback-demo/src/piggieback_demo/" (21230 61756 776000 0) "./" "core.cljs" "../")
+
+ ("/home/lucas/Documents/Clojure/piggieback-demo/target/" (21230 60096 944000 0) "./" "client.js" "stale/" "../")
+
+ ("/home/lucas/Documents/Clojure/piggieback-demo/src/" (21230 58794 444000 0) "./" "piggieback_demo/" "../")
+
+ ("/home/lucas/Documents/Clojure/cljs-spiral/" (21230 59373 808000 0) "./" "test/" "README.md" "cljsspiral.html" "cljsspiral.css" ".git/" "target/" "project.clj" "../" "LICENSE" "src/" ".gitignore" "doc/")
+
+ ("/home/lucas/Documents/Clojure/" (21230 58794 436000 0) "./" "cljs-spiral/" "cljsspiral/" "reactdemo/" "piggieback-demo/" "../")
+
+ ("/home/lucas/Documents/Clojure/cljs-spiral/src/cljsspiral/" (21228 18730 493243 999000) "./" "core.cljs" "../")
+
+ ("/home/lucas/Documents/Clojure/cljs-spiral/src/" (21228 18338 797243 999000) "./" "cljsspiral/" "../")
+
+ ("/home/lucas/Documents/Clojure/cljsspiral/" (21225 46249 116397 243000) "./" "reagent-template/" "../")
+
+ ("/home/lucas/Documents/Clojure/cljsspiral/reagent-template/src/cljsspiral/" (21225 52205 8650 795000) "./" "core.cljs" "../")
+
+ ("/home/lucas/Documents/Clojure/cljsspiral/reagent-template/" (21225 47252 436439 956000) "./" "test/" "README.md" "cljsspiral.html" "cljsspiral.css" ".git/" ".nrepl-port" "target/" "project.clj" "../" "LICENSE" "src/" "doc/")
+
+ ("/home/lucas/Documents/Clojure/cljsspiral/reagent-template/src/" (21225 46251 332397 338000) "./" "cljsspiral/" "../")
+
+ ("/home/lucas/Documents/Clojure/reactdemo/" (21215 6634 974207 745000) "./" "test/" "reactdemo.css" "README.md" "resources/" "reactdemo.html" "target/" "project.clj" "../" "LICENSE" "src/" ".gitignore" "doc/")
+
+ ("/home/lucas/Documents/Clojure/reactdemo/src/reactdemo/" (21204 59540 912988 0) "./" "core.cljs" "../" ".#core.cljs")
+
+ ("/home/lucas/Documents/Clojure/reactdemo/src/" (21203 18265 796348 864000) "./" "reactdemo/" "../")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
