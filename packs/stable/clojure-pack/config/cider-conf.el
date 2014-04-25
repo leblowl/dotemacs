@@ -8,7 +8,8 @@
  (aset buffer-display-table ?\^M []))
 
 (when (eq system-type 'windows-nt)
-  (add-hook 'nrepl-mode-hook 'live-windows-hide-eol ))
+  ;;(add-hook 'nrepl-mode-hook 'live-windows-hide-eol ))
+    (add-hook 'cider-repl-mode-hook 'live-windows-hide-eol)
 
 (add-hook 'cider-repl-mode-hook
           (lambda ()
