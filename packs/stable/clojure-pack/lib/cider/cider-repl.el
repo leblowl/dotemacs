@@ -412,13 +412,20 @@ If BOL is non-nil insert at the beginning of line."
           (goto-char position)
           ;; TODO: Review the need for bol
           (when (and bol (not (bolp))) (insert-before-markers "\n"))
+
+          ;; hacks to get colored pretty printing
+          (if cider-repl-use-clojure-font-lock
+              (insert-before-markers (cider-font-lock-as-clojure string))
+
           (cider-propertize-region `(face cider-repl-output-face
                                           rear-nonsticky (face))
-            (insert-before-markers string)
+            (insert-before-markers string)))
+          ;; end hacks
+
             (when (and (= (point) cider-repl-prompt-start-mark)
                        (not (bolp)))
               (insert-before-markers "\n")
-              (set-marker cider-repl-output-end (1- (point))))))))
+              (set-marker cider-repl-output-end (1- (point)))))))
     (cider-repl--show-maximum-output)))
 
 (defun cider-repl-emit-interactive-output (string)
