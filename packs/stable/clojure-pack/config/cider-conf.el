@@ -44,3 +44,6 @@
 (add-hook 'nrepl-connected-hook 'live-nrepl-set-print-length)
 
 (setq nrepl-port "4555")
+
+(setq cider-repl-use-clojure-font-lock t)
+(add-hook 'cider-repl-mode-hook 'rainbow-delimiters-mode)
