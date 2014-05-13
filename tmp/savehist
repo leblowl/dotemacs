@@ -5,5 +5,5 @@
 (setq ido-buffer-history '("*cider-repl research*"))
 (setq ido-file-history '("core.clj" ".gitignore"))
 (setq file-name-history '("c:/Users/lucas.leblow/Scripture/GitHub/mindbody/MB-Security/xss/research/src/research/core.clj" "c:/Users/lucas.leblow/.emacs.d/.gitignore"))
-(setq extended-command-history '("cider-repl-clear-buffer" "find-file"))
+(setq extended-command-history '("font-lock-mode" "clojure-mode-font-lock-setup" "cider-repl-clear-buffer" "cider-repl-toggle-pretty-printing" "cider-repl-toggle-print-length-limiting" "cider-repl-toggle-pretty-printing" "cider-repl-clear-buffer" "find-file"))
 (setq regexp-search-ring 'nil)

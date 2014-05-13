@@ -1,6 +1,14 @@
 (live-add-pack-lib "cider")
 (require 'cider)
 
+(add-hook 'cider-repl-mode-hook 'rainbow-delimiters-mode)
+; proper way to get full clojure mode in buffer
+(add-hook 'cider-repl-mode-hook
+               (lambda ()
+                 (clojure-mode-font-lock-setup)
+                 (font-lock-mode)
+                 (font-lock-mode)))
+
 (defun live-windows-hide-eol ()
  "Do not show ^M in files containing mixed UNIX and DOS line endings."
  (interactive)
@@ -44,6 +52,3 @@
 (add-hook 'nrepl-connected-hook 'live-nrepl-set-print-length)
 
 (setq nrepl-port "4555")
-
-(setq cider-repl-use-clojure-font-lock t)
-(add-hook 'cider-repl-mode-hook 'rainbow-delimiters-mode)
